@@ -1,0 +1,92 @@
+#video-call-div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+#local-video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 16px;
+	border-radius: 16px;
+	max-width: 20%;
+	max-height: 20%;
+	background: #000000;	
+}
+
+#remote-video{
+	background: #011D30;
+	width: 100%;
+	height: 100%;
+}
+
+.call-action-div{
+	position: absolute;
+	left: 38%;
+	bottom: 32px;
+}
+
+button{
+	cursor: pointer;
+	background-color: darkgreen;
+	color: white;
+	height: 40px;
+	width: 150px;
+	border-radius: 50px;
+	border: none;
+	margin-left: 20px;
+}
+
+#sender{
+	position: absolute;
+	left:60%;
+	top: 45%;
+}
+
+#username-input{
+	width: 310px;
+	height: 40px;
+	font-size: 15px;
+	color:darkgreen;
+	margin-left: 25px;
+}
+
+#receiver{
+	position: absolute;
+	left:60%;
+	top: 45%;
+}
+
+#join{
+	width: 325px;
+}
+
+body{
+	background-color: #011D30;
+}
+
+#name{
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	width:800px;
+}
+
+#name>p{
+	position: absolute;
+	left: 20%;
+	top: 0.1%;
+	color: white;
+	font-size: 90px;
+}
+
+
+
+
+
+
+
