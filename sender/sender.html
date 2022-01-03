@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<script src="./sender.js" type="text/javascript"></script>
+		<meta name="viewport" content="width = device-width" initial-scale=1.0>
+		<title>SENDER</title>
+		<link rel="icon" href="r.jpg">
+	</head>
+	<body>
+		<div id="name">
+			<img src="r2.gif" alt="R" width="200px" height="200px">
+			<p style="border-bottom: 5px double orange;">
+				<span style="color: #FF0000">E</span>
+				<span style="color: #66CC66">J</span>
+				<span style="color: #FF9966">O</span>
+				<span style="color: #FFCCCC">I</span>
+				<span style="color: #FF0066">N</span>
+				<span style="color: #FF6347">I</span>
+				<span style="color: #C0C0C0">N</span>
+				<span style="color: #00FFFF">G</span>
+			</p>
+		</div>
+		<div id="sender">
+			<input type="text" name="username" id="username-input" placeholder="Enter username..."><br><br>
+			<button onclick="sendusername()">Send</button>
+			<button onclick="startcall()">Start Call</button>
+		</div>
+		<div id="video-call-div">
+			<video id="local-video" autoplay></video>
+			<video id="remote-video" autoplay></video>
+			<div class="call-action-div">
+				<button onclick="mutevideo()">Mute Video</button>
+				<button onclick="muteaudio()">Mute Audio</button>
+			</div>
+		</div>
+	</body>
+
+</html>
